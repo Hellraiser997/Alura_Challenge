@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador</title>
+    <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <header>Encriptador</header>
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Encriptador</h1>
+    </header>
     <main>
-      <section>
+      <section class="texto__entrada">
         <textarea
           class="area-texto"
           cols="41"
           rows="4"
-          placeholder="insira texto aqui..."
+          placeholder="Insira texto aqui..."
         ></textarea>
         <div class="info">
-          <h6>Deve-se adicionar apenas letras minúsculas e sem acento!</h6>
+          <h6 class="titulo__h6__info">
+            Deve-se adicionar apenas letras minúsculas e sem acento!
+          </h6>
         </div>
         <div class="buttons">
           <button class="button-criptografar" onclick="btnEncriptar()">
@@ -28,11 +33,18 @@
           </button>
         </div>
       </section>
-      <section>
-        <textarea class="mensagem" cols="20" rows="10"></textarea>
+      <section class="section__resposta">
+        <textarea
+          class="mensagem"
+          cols="20"
+          rows="10"
+          placeholder="resposta..."
+        ></textarea>
         <button class="button-copiar" onclick="btnCopiar()">Copiar</button>
       </section>
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <h6 class="rodape__texto">Feito por mim.</h6>
+    </footer>
   </body>
 </html>
