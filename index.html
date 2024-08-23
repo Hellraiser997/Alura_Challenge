@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador</title>
+    <script src="/script.js" defer></script>
   </head>
   <body>
-    <header></header>
+    <header>Encriptador</header>
     <main>
       <section>
         <textarea
@@ -19,7 +20,9 @@
           <h6>Deve-se adicionar apenas letras minúsculas e sem acento!</h6>
         </div>
         <div class="buttons">
-          <button class="button-criptografar">Criptografar</button>
+          <button class="button-criptografar" onclick="btnEncriptar()">
+            Criptografar
+          </button>
           <button class="button-descriptografar">Descriptografar</button>
         </div>
       </section>
