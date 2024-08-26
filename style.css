@@ -110,6 +110,22 @@ main {
     cursor: pointer;
 }
 
+.button-colar {
+    background-color: #210E6F;
+    border: none;
+    color: #F1F0D3;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+
+.button-colar:hover {
+    background-color: #210E9F;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .section__resposta {
     display: flex;
     flex-direction: column;

@@ -54,3 +54,7 @@ function btnCopiar() {
     mensagem.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(mensagem.value);
 }
+
+function btnColar() {
+    document.querySelector(".area-texto").value = document.querySelector(".mensagem").value;
+}
