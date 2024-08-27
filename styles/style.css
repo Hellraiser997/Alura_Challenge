@@ -209,3 +209,59 @@ main {
         margin-top: 8px;
     }
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 5%;
+    }
+
+    .cabecalho__titulo {
+        padding-left: 30%;
+        padding-top: 2%;
+        font-size: 48px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .texto__entrada {
+        width: 100%;
+    }
+
+    .section__resposta {
+        width: 100%;
+    }
+
+    .buttons {
+        align-items: center;
+    }
+
+    .button-criptografar {
+        width: 40%;
+        margin-bottom: 8px;
+        margin-left: 10%;
+    }
+
+    .button-descriptografar {
+        width: 40%;
+        margin-bottom: 8px;
+    }
+
+    .button-colar {
+        width: 40%;
+        margin-bottom: 8px;
+        margin-left: 30%;
+    }
+
+    .button-copiar {
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 0px;
+    }
+
+    .rodape {
+        margin-top: 8px;
+    }
+}
