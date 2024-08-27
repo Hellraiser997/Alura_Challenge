@@ -159,7 +159,7 @@ main {
     color: #F1F0D3;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .cabecalho {
         padding: 10%;
     }
@@ -174,7 +174,11 @@ main {
     }
 
     .texto__entrada {
-        width: 375px;
+        width: 100%;
+    }
+
+    .section__resposta {
+        width: 100%;
     }
 
     .buttons {
@@ -182,26 +186,26 @@ main {
     }
 
     .button-criptografar {
-        width: 375px;
-        margin-bottom: 5px;
+        width: 100%;
+        margin-bottom: 8px;
     }
 
     .button-descriptografar {
-        width: 375px;
-        margin-bottom: 5px;
+        width: 100%;
+        margin-bottom: 8px;
     }
 
     .button-colar {
-        width: 375px;
-        margin-bottom: 5px;
+        width: 100%;
+        margin-bottom: 8px;
     }
 
     .button-copiar {
-        width: 375px;
+        width: 100%;
         margin-bottom: 0px;
     }
 
     .rodape {
-        margin-top: 5px;
+        margin-top: 8px;
     }
 }
